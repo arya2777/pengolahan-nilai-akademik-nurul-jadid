@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>------</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+    <div class="page-dashboard">
+      <div class="d-flex" id="wrapper" data-aos="fade-right">
+       
+        <!-- Side Bar -->
+         <div class="border-right" id="sidebar-wrapper">
+          <div class="sidebar-heading text-center">
+            <img src="/images/logo-nurul-jadid.png" width="130px" alt="LOGO" class="my-4" />
+          </div>
+          <div class="list-group list-group-flush">
+            <a
+              href="/dashboard.html"
+              class="list-group-item list-group-item-action"
+              >Dashboard</a
+            >
+            <a
+              href="/siswa.html"
+              class="list-group-item list-group-item-action"
+              >Siswa</a
+            >
+            <a
+              href="/siswa-detail.html"
+              class="list-group-item list-group-item-action active"
+              >Nilai</a
+            >
+            <a
+              href="/nilai_detail.html"
+              class="list-group-item list-group-item-action"
+              >Detail Nilai</a
+            >
+            <a
+              href="/rapor.html"
+              class="list-group-item list-group-item-action"
+              >Rapor</a
+            >
+            <a href="/index.html" class="list-group-item list-group-item-action"
+              >Log Out</a
+            >
+          </div>
+        </div>
+        <div class="border-right" id="sidebar-wrapper">
+          <div class="sidebar-heading text-center">
+            <img src="images/icon-testimonial-3.png" alt="Photo" class="my-4" />
+            <h6>Stefani Aulia</h6>
+            <p>IX A</p>
+          </div>
+          <p class="list-group-item">Informasi Kontak</p>
+          <div class="list-group list-group-flush">
+             <div class="col-md-12">
+                <div class="form-group">
+                    <label>Alamat</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      value="Cendana Blok A1 No 08"
+                    />
+                  </div>
+              </div>
+               <div class="col-md-12">
+                <div class="form-group">
+                    <label>No telpon</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      value="08781928392"
+                    />
+                  </div>
+              </div>
+            <a
+              href="/my-product.html"
+              class="list-group-item list-group-item-action"
+              >Infomrasi Siswa</a
+            >
+            <div class="col-md-12">
+              <div class="form-group">
+                  <label>NIS</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    value="1028110"
+                  />
+                </div>
+            </div>
+             <div class="col-md-12">
+              <div class="form-group">
+                  <label>NISN</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    value="201293849123"
+                  />
+                </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                  <label>Jenis Kelamin</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    value="perempuan"
+                  />
+                </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                  <label>Tempat Tanggal Lahir</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    value="Batam, 21 Jun 2001"
+                  />
+                </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top" data-aos="fade-down">
+         <div class="container-fluid">
+           <button class="btn btn-secondary d-md-none mr-auto mr-2" id="menu-toggle">
+                &laquo; Menu
+           </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+          <!-- Desktop Menu -->
+          <ul class="navbar-nav d-none d-lg-flex ml-auto">
+            <li class="nav-item dropdown">
+              <div class="dropdown-menu">
+                <a href="/dashboard.html" class="dropdown-item">Dashboard</a>
+                <a href="/dashboard-account.html" class="dropdown-item"
+                  >Settings</a
+                >
+                <div class="dropdown-divider"></div>
+                <a href="/" class="dropdown-item">Logout</a>
+              </div>
+            </li>
+            <li class="nav-item">
+            </li>
+          </ul>
+          
+          <ul class="navbar-nav d-block d-lg-none">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                Hi, Samuel
+              </a>
+              <li class="nav-item">
+              <a href="#" class="nav-link d-inline-block">
+                Cart
+              </a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+        </nav>
+
+            <!-- Section Content -->
+            <div class="section-content section-dashboard-home" data-aos="fade-up">
+              <div class="container-fluid">
+                <div class="dashboard-heading">
+                  
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Nilai</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Rapor</a>
+                      </li>
+                     
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                    <div class="card card-list d-block">
+                      <div class="card-body">              
+                      <div class="row">
+                         <div class="col-12">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                                <label>Mata Pelajaran</label>
+                                <select name="category" class="form-control">
+                                  <option value="" disabled>Select Category</option>
+                                  <option value="Bahasa Indonesia">Bahasa Indonesia</option>
+                                  <option value="Bahasa Inggris">Bahasa Inggris</option>
+
+                                </select>                              
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                          <div class="form-group">
+                              <label>Tahun</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                              />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                          <div class="form-group">
+                              <label>Semester</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                              />
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                  <form action="">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                              <label>Kompetensi Pengetahuan</label>
+                               <input
+                                type="text"
+                                class="form-control"
+                                value="6.0"
+                              />
+                            </div>
+                        </div>
+                         <div class="col-md-6">
+                          <div class="form-group">
+                              <label>Kompetensi Keterampilan</label>
+                               <input
+                                type="text"
+                                class="form-control"
+                                placeholder="KKM"
+                                value="6.5"
+                              />
+                            </div>
+                        </div>
+                         <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Rata-Rata Penugasan"
+                                value="77.5"
+                              />
+                            </div>
+                        </div>
+                         <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Kin Proses"
+                                value="Memuaskan"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Rata-Rata Nilai Harian"
+                                value="78.3"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Kin Produk"
+                                value="Memuaskan"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Nilai UTS"
+                                value="71.5"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Kin Proyek"
+                                value="77.5"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Nilai UAS"
+                                value="73.5"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Nilai Akhir"
+                                value="70.5"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Nilai Akhir"
+                                value="71.5"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Predikat"
+                                value="Memuaskan"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Predikat"
+                                value="Memuaskan"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Ketuntasan"
+                                value="Dengan Baik"
+                              />
+                            </div>
+                        </div>
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Ketuntasan"
+                                value="Dengan Baik"
+                              />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">                             
+                            
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                              <label>Deskripsi Keterampilan</label>
+                              <textarea name="editor"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                              <label>Deskripsi Keterampilan</label>
+                              <textarea name="editor1"></textarea>
+                          </div>
+                        </div>                   
+                      </div>                      
+                    </div>
+                  </form>
+                </div>                                       
+                    </div>
+                    </div>
+                    </div>                   
+                     </div>
+                    
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="card card-list d-block">
+                      <div class="card-body">              
+                      <div class="row">
+                         <div class="col-12">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-6">
+                          <div class="form-group">                             
+                                <label>Tahun Ajaran</label>
+                                <select name="category" class="form-control">
+                                  <option value="">2022</option>
+                                </select>                              
+                            </div>
+                        </div>                
+                        </div>
+                        <div class="row">
+                      <div class="col-md-4">
+                          <div class="form-group">
+                              <label>Semester</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                value="1"
+                              />
+                            </div>
+                        </div>                
+                        <div class="col-md-4">
+                          <div class="form-group">
+                              <label>Semester</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                value=""
+                              />
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                                                         
+                    </div>
+                    </div>
+                    </div> 
+             </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+<script src="https://cdn.ckeditor.com/4.19.0/standard/ckeditor.js"></script>
+   <script>
+        CKEDITOR.replace( 'editor' );
+  </script>
+  <script>
+        CKEDITOR.replace( 'editor1' );
+  </script>
+</body>
+</html>
